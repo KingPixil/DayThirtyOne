@@ -1,0 +1,51 @@
+body{
+	 margin: 0;
+  padding: 0;
+/* Location of the image */
+  background-image: url('https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=21ce0991c656c3dc50f55b4ecc81d30d');
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+input{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 280px;
+  height: 26px;
+  margin: -18px 0 0 -150px;
+  padding: 5px 10px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
